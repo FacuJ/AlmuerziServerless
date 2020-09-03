@@ -6,7 +6,7 @@ const {isAuthenticated } = require('../auth')
 
 const router = express.Router()
 
-const signToken = (id) => {
+const signToken = (_id) => {
     return jwt.sign({ _id }, 'mi-secreto', {
         expiresIn: 60*60*24*365, //validez por todo un año
     })
