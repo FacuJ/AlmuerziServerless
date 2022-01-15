@@ -10,7 +10,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.25",
     "sharp": "^0.25.4",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.5"
   },
   "name": "serverless",
   "description": "This directory is a brief example of using a Custom Build script that can be deployed with Vercel and zero configuration.",
